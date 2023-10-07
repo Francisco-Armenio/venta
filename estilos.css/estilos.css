@@ -176,9 +176,9 @@ ul{
 }
 
 .navbar a{
-    color: rgb(155, 193, 250);
+    color: white;
 }
 
 .navbar a:hover{
-    color: white;
+    color: rgb(155, 193, 250);
 }
