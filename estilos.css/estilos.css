@@ -182,3 +182,18 @@ ul{
 .navbar a:hover{
     color: rgb(155, 193, 250);
 }
+
+@media (max-width: 450px){
+    .footer{
+        background-color: aquamarine;
+    }
+
+    .botones{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .boton {
+        text-align: center;
+    }
+}
