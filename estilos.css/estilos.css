@@ -183,7 +183,15 @@ ul{
     color: rgb(155, 193, 250);
 }
 
-@media (max-width: 450px){
+h2{
+    font-size: 20px;
+}
+
+p{
+    font-size: 15px;
+}
+
+@media (max-width: 1214px){
     .footer{
         background-color: aquamarine;
     }
@@ -195,5 +203,10 @@ ul{
 
     .boton {
         text-align: center;
+    }
+
+    .tarjetas{
+        display: flex;
+        flex-direction: column;
     }
 }
