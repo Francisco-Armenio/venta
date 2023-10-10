@@ -209,4 +209,12 @@ p{
         display: flex;
         flex-direction: column;
     }
+
+    .borde{
+        padding: 3px 10px;
+        border: #000 5px solid;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        width: 100%;
+    }
 }
