@@ -1,0 +1,31 @@
+.div{
+    background-image: url(../imgagenes/gym.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 85vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+    background-color: rgba(255, 255, 255, 0.76);
+    padding: .5rem;
+}
+
+.botones{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.boton{
+    text-decoration: none;
+    background-color: $colorPrincipal;
+    color: white;
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+}

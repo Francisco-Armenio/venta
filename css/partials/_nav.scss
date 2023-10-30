@@ -1,0 +1,43 @@
+.texto{
+    padding-inline: 3rem;
+    gap: 2rem;
+}
+
+.nav{
+    margin-bottom:1rem;
+    background-color:#2e97b7;
+    padding:5px;
+    
+
+    position: sticky;
+    width:100%;
+
+    z-index:1;
+}
+
+.item-lista{
+    display: inline-block;
+    margin:10px;
+}
+
+.registro{
+    padding:5px;
+}
+
+.pepe{
+    display: flex;
+    justify-content: center;
+}
+
+.borde{
+    padding: 3px 10px;
+    border: 5px solid #000 ;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 20%;
+}
+
+ul{
+    list-style-type: none;
+    
+}

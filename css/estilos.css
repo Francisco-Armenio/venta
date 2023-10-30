@@ -44,7 +44,6 @@ body {
   margin-bottom: 1rem;
   background-color: #2e97b7;
   padding: 5px;
-  text-decoration: none;
   position: sticky;
   width: 100%;
   z-index: 1;
@@ -53,10 +52,6 @@ body {
 .item-lista {
   display: inline-block;
   margin: 10px;
-}
-
-.car {
-  text-decoration: none;
 }
 
 .registro {
@@ -70,18 +65,10 @@ body {
 
 .borde {
   padding: 3px 10px;
-  border: #000 5px solid;
+  border: 5px solid #000;
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
   width: 20%;
-}
-
-.footer {
-  background-color: #6b9080;
-  padding-inline: 3rem;
-  gap: 2rem;
-  display: flex;
-  justify-content: center;
 }
 
 ul {
@@ -98,7 +85,7 @@ ul {
 .imagen-trabajo {
   width: 550px;
   height: 350px;
-  margin-right: 200px;
+  margin-right: 100px;
 }
 
 .tarjetas {
@@ -122,7 +109,7 @@ ul {
 .tarjeta {
   background: #1c89aa;
   padding: 10px;
-  border: 3px solid #095a72;
+  border: 3px solid #116f8b;
 }
 
 .grid {
@@ -190,6 +177,14 @@ h2 {
 
 p {
   font-size: 15px;
+}
+
+.footer {
+  background-color: #6b9080;
+  padding-inline: 3rem;
+  gap: 2rem;
+  display: flex;
+  justify-content: center;
 }
 
 @media (max-width: 1214px) {
